@@ -4,18 +4,18 @@ body{
 }
 
 .formContainer{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-   .formWrapper{
+  .formWrapper{
       background-color: white;
-      padding: 20px 60px;
+      padding: 10px 60px;
       border-radius: 10px;
       flex-direction: column;
       display: flex;
-      gap: 10px;
+      gap: 5px;
       align-items: center;
 
       .logo{
@@ -28,7 +28,7 @@ body{
         color: #5d5b8d;
       }
 
-      .formList {
+      .formList { 
           flex-direction: column;
           display: flex;
           gap: 15px;
@@ -79,11 +79,9 @@ body{
             margin-top: 10px;
         }
     }
-
 }
 
 .bigContainer{
-  border: 1px solid red;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -126,6 +124,22 @@ body{
    
   }
 
- 
+  .chatPanel{
+    background-color: #ddddf7;
+    height: 70%;
+    width: 40%;
+
+    .chatBar{
+      background-color: #5d5b8d;
+      height: 15%;
+      align-items: center;
+      display: flex;
+
+      img{
+        padding-right: 5px;
+      }
+    }
+
+  }
 
 }
