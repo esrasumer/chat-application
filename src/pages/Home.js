@@ -1,19 +1,21 @@
 import {Chat,Chats,Input,Message,Navbar,Search,Sidebar} from '../components'
-import Png from '../img/add.png'
-import Cam from '../img/cam.png'
-import More from '../img/more.png'
+// import Png from '../img/add.png'
+// import Cam from '../img/cam.png'
+// import More from '../img/more.png'
 
 
 function Home() {
   return (
-    <div className='bigContainer'>
+    <div className='home'>
       <Sidebar />
+      <Chat />
       <div className='chatPanel'>
+        
         <div className='chatBar'>
           <span>name</span>
-          <img src={Cam} alt="" />
+          {/* <img src={Cam} alt="" />
           <img src={Png} alt="" />
-          <img src={More} alt="" />
+          <img src={More} alt="" /> */}
         </div>
         <div className='mesasages'></div>
         <input type="text" className='inputHome'/>
