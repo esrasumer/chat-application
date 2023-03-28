@@ -6,7 +6,6 @@ import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore";
 import { Link, useNavigate } from "react-router-dom"
 
-
 function Register() {
   const [err, setErr] = useState(false)
   const navigate = useNavigate()
